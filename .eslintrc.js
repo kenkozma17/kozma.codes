@@ -23,5 +23,6 @@ module.exports = {
 
   rules: {
     "vue/script-setup-no-uses-vars": "off",
+    // semi: [1, "always"],
   },
 };

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer base {
+  body {
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+  }
+  p {
+    @apply md:leading-8 leading-7;
+  }
+  h1.big {
+    @apply lg:text-6xl md:text-5xl text-3xl font-bold;
+  }
+  h1 {
+    @apply lg:text-4xl md:text-3xl text-2xl font-bold;
+  }
+  h2 {
+    @apply lg:text-4xl md:text-3xl text-2xl font-semibold; 
+  }
+  h3 {
+    @apply lg:text-3xl text-2xl font-semibold; 
+  }
+}

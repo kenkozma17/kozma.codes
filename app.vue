@@ -1,5 +1,7 @@
 <template>
-  <div>
-    <NuxtPage /> 
-  </div>
+  <PartialsNavigation />
+  <main>
+    <NuxtPage />
+  </main>
+  <PartialsFooter />
 </template>
