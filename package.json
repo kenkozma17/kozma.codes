@@ -24,5 +24,11 @@
     "prettier": "^2.8.1",
     "typescript": "^4.9.4",
     "vue-eslint-parser": "^9.1.0"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/vue-splide": "^0.6.12",
+    "dragdealer": "^0.10.0",
+    "scrollbooster": "^3.0.2"
   }
 }

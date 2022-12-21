@@ -2,15 +2,19 @@
 @tailwind components;
 @tailwind utilities; 
 
+
 @layer base {
   body {
     font-family: 'Graphik', sans-serif;
     font-size: 16px;
   }
-  p {
-    @apply md:leading-8 leading-7;
+  main {
+    overflow: hidden;
   }
-  h1.big {
+  p {
+    @apply md:leading-9 leading-7;
+  }
+  h1.large-version {
     @apply lg:text-6xl md:text-5xl text-3xl font-bold;
   }
   h1 {

@@ -10,7 +10,12 @@
         </p>
       </div>
       <div class="flex justify-between items-center">
-        <a href="mailto:workwithkozma@gmail.com" class="font-bold"> workwithkozma@gmail.com </a>
+        <a
+          href="mailto:workwithkozma@gmail.com"
+          class="font-bold hover:underline"
+        >
+          workwithkozma@gmail.com
+        </a>
         <PartialsSocials />
       </div>
     </Wrapper>
