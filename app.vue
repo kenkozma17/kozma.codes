@@ -5,6 +5,3 @@
   </main>
   <PartialsFooter />
 </template>
-<script>
-import '@splidejs/vue-splide/css';
-</script>

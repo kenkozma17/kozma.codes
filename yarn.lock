@@ -1001,7 +1001,7 @@
   "resolved" "https://registry.npmjs.org/@vue/shared/-/shared-3.2.45.tgz"
   "version" "3.2.45"
 
-"@vueuse/head@^1.0.15":
+"@vueuse/head@^1.0.15", "@vueuse/head@^1.0.22":
   "integrity" "sha512-YmUdbzNdCnhmrAFxGnJS+Rixj+swE+TQC9OEaYDHIro6gE7W11jugcdwVP00HrA4WRQhg+TOQ4YcY2oL/PP1hw=="
   "resolved" "https://registry.npmjs.org/@vueuse/head/-/head-1.0.22.tgz"
   "version" "1.0.22"

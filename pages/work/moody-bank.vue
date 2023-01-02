@@ -5,60 +5,85 @@
         <h1>Moody Bank</h1>
       </div>
       <!-- Section 1: Description and roles -->
-      <div class="grid grid-cols-12 md:pt-6 pt-4">
-        <div class="col-span-4 flex flex-col md:space-y-6 space-y-4">
-          <div>
+      <div class="grid grid-cols-12 md:pt-6 pt-4 md:gap-x-4">
+        <div
+          class="md:col-span-4 md:order-first order-last col-span-12 grid grid-cols-9 md:space-y-6 md:mt-0 mt-4 md:space-x-0 space-x-4"
+        >
+          <div class="md:col-span-9 col-span-3">
             <TypoLabel>My Role</TypoLabel>
-            <div class="md:mt-3 mt-2">
+            <div class="md:mt-3">
               <p>Full Stack Developer</p>
             </div>
           </div>
-          <div>
+          <div class="md:col-span-9 col-span-3">
             <TypoLabel>Tech I Used</TypoLabel>
-            <div class="md:mt-3 mt-2 flex flex-col md:space-y-1.5 space-y-1">
+            <div class="md:mt-3 flex flex-col md:space-y-1.5 space-y-1">
               <p>Vue.js</p>
-              <p>Vuex</p>
-              <p>Lodash</p>
               <p>Laravel</p>
-              <p>Medium Editor</p>
-              <p>Scss</p>
+              <p>Larafish</p>
+              <p>Css/Scss</p>
             </div>
           </div>
-          <div>
+          <div class="md:col-span-9 col-span-3">
             <TypoLabel>Timeline</TypoLabel>
-            <div class="md:mt-3 mt-2 flex flex-col md:space-y-1.5 space-y-1">
-              <p>June - August 2020</p>
+            <div class="md:mt-3 flex flex-col md:space-y-1.5 space-y-1">
+              <p>June 2019</p>
             </div>
           </div>
         </div>
-        <div class="col-span-8">
-          <TypoLabel>Description</TypoLabel>
-          <div class="md:mt-3 mt-2">
-            <p>
-              This was my full-time gig since Fall of 2018 and man was it an
-              exciting journey. When I first started, the e-commerce application
-              was a ~15 year old frankenstein legacy system that desparately
-              needed some updating. After I started, we built a new web
-              application using modern technologies in a rather unqiue way.
-              CPAP.com has been in business for close to 20 years. When I first
-              came on, the e-commerce-application we worked on was a monolithic
-              application that housed both the frontend and the backend.
-            </p>
+        <div class="md:col-span-8 col-span-12">
+          <div>
+            <TypoLabel>Description</TypoLabel>
+            <div class="md:mt-3">
+              <p>
+                A CMS-driven bank website built using an in-house CMS called
+                Larafish.
+              </p>
+            </div>
           </div>
-          <div class="md:mt-6 mt-3 grid grid-cols-2 text-right space-x-4">
+          <div class="md:mt-6 mt-3">
+            <TypoLabel>Context</TypoLabel>
+            <div class="md:mt-3">
+              <p>
+                This was my first solo web project during my time at liquidfish.
+                I was included in the initial discovery meetings with the
+                client, project managers and designers so that we were all on
+                the same page regarding scope and requirements. I then got
+                together with the designers to discuss the possibilities
+                regarding design and animations and then began development using
+                Laravel and Vue.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="md:mt-6 mt-3 grid grid-cols-2 text-right space-x-4">
             <a
-              href="#"
-              class="border-2 border-ken-dark-gray font-medium md:px-10 px-4 py-2 rounded-full hover:bg-black hover:text-white hover:border-black text-center"
-              >Read Case Study</a
-            >
-            <a
-              href="#"
+              target="_blank"
+              href="https://moodybank.com"
               class="border-2 border-ken-dark-gray font-medium md:px-10 px-4 py-2 rounded-full hover:bg-black hover:text-white hover:border-black text-center"
               >Website</a
             >
-          </div>
+          </div> -->
+        </div>
+      </div>
+    </Wrapper>
+    <Wrapper class="md:mt-12 mt-6">
+      <!-- Section 2: Images -->
+      <div class="grid grid-cols-12 md:gap-4 gap-1.5">
+        <div class="col-span-12 bg-ken-light-gray md:p-4 p-1 rounded">
+          <img src="@/assets/images/moody/ss-1.jpg" class="rounded" alt="" />
+        </div>
+        <div class="col-span-6 bg-ken-light-gray md:p-4 p-1 rounded">
+          <img src="@/assets/images/moody/ss-3.jpg" class="rounded" alt="" />
+        </div>
+        <div class="col-span-6 bg-ken-light-gray md:p-4 p-1 rounded">
+          <img src="@/assets/images/moody/ss-2.jpg" class="rounded" alt="" />
         </div>
       </div>
     </Wrapper>
   </section>
 </template>
+<script setup>
+useHead({
+  title: "Ken Kozma | Moody Bank Website",
+})
+</script>

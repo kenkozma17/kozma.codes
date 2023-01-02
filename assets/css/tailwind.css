@@ -11,8 +11,8 @@
   main {
     overflow: hidden;
   }
-  p {
-    @apply md:leading-9 leading-7;
+  p, li {
+    @apply md:leading-9 leading-7 md:text-base text-sm;
   }
   h1.large-version {
     @apply lg:text-6xl md:text-5xl text-3xl font-bold;

@@ -28,6 +28,7 @@
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "@splidejs/vue-splide": "^0.6.12",
+    "@vueuse/head": "^1.0.22",
     "dragdealer": "^0.10.0",
     "scrollbooster": "^3.0.2"
   }

@@ -13,6 +13,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        about: "1250px",
+      },
       colors: {
         "ken-light-gray": "#E0E0E0",
         "ken-dark-gray": "#d4d4d4",

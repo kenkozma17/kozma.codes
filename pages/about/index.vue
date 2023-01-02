@@ -2,10 +2,10 @@
   <Wrapper size="large-extended">
     <!-- Section 1: About and Images -->
     <section
-      class="grid grid-cols-12 md:gap-x-4 gap-x-2 md:mb-20 mb-10 md:mt-14 mt-10"
+      class="grid grid-cols-12 md:gap-x-4 gap-x-2 md:mb-20 mb-10 md:mt-14 mt-10 lg:w-about md:gap-y-4 gap-y-2"
     >
-      <div class="col-span-6">
-        <div class="bg-ken-about-gray rounded-lg md:p-8 p-4">
+      <div class="lg:col-span-6 col-span-12">
+        <div class="bg-ken-about-gray rounded-lg md:px-8 md:py-8 px-4 py-6">
           <h3 class="font-normal border-b border-ken-dark-gray md:pb-4 pb-2">
             A little bit about me.
           </h3>
@@ -58,7 +58,7 @@
               </p>
             </div>
           </div>
-          <div class="md:mt-6 mt-4">
+          <!-- <div class="md:mt-6 mt-4">
             <TypoLabel>WHAT IS IMPORTANT TO ME</TypoLabel>
             <div class="md:mt-3 mt-2">
               <p class="text-ken-mid-gray">
@@ -66,27 +66,45 @@
                 beautiful and accessible web applications.
               </p>
             </div>
-          </div>
-          <PartialsSocials class="md:mt-6 mt-4" />
+          </div> -->
+          <!-- <PartialsSocials class="md:mt-6 mt-4" /> -->
         </div>
       </div>
-      <div class="col-span-6 grid grid-cols-6 gap-4">
+      <div class="lg:col-span-6 col-span-12 grid grid-cols-6 md:gap-4 gap-2">
         <div class="col-span-3">
           <img src="@/assets/images/love-1.jpg" class="rounded-lg" alt="" />
         </div>
         <div class="col-span-3">
-          <img src="@/assets/images/random-1.jpg" class="rounded-lg" alt="">
+          <img src="@/assets/images/random-1.jpg" class="rounded-lg" alt="" />
         </div>
         <div class="col-span-3">
-          <img src="@/assets/images/photography-1.jpg" class="rounded-lg" alt="">
+          <img
+            src="@/assets/images/photography-1.jpg"
+            class="rounded-lg"
+            alt=""
+          />
         </div>
         <div class="col-span-3">
-          <img src="@/assets/images/hobby-1.jpg" class="rounded-lg" alt="">
+          <img src="@/assets/images/hobby-1.jpg" class="rounded-lg" alt="" />
         </div>
         <div class="col-span-6">
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3Rg5r1w6B7ZXEhd5elZ7Np?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/3Rg5r1w6B7ZXEhd5elZ7Np?utm_source=generator"
+            width="100%"
+            height="320"
+            frameBorder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
         </div>
       </div>
     </section>
   </Wrapper>
 </template>
+<script setup>
+useHead({
+  title: "Ken Kozma | About",
+})
+</script>

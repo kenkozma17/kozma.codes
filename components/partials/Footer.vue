@@ -9,7 +9,9 @@
           full-time position. I’m always open to a conversation.
         </p>
       </div>
-      <div class="flex justify-between items-center">
+      <div
+        class="flex md:flex-row flex-col justify-between md:items-center items-start md:space-y-0 space-y-4"
+      >
         <a
           href="mailto:workwithkozma@gmail.com"
           class="font-bold hover:underline"

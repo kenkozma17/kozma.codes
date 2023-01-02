@@ -1,8 +1,12 @@
 <template>
   <Wrapper>
     <!-- Section 1: Intro and Image -->
-    <section class="grid grid-cols-12 lg:mt-20 md:mt-14 mt-10">
-      <div class="col-span-8 lg:mr-32 md:mr-12 mr-6 flex flex-col justify-end">
+    <section
+      class="grid grid-cols-12 lg:space-y-0 space-y-4 lg:mt-20 md:mt-14 mt-10"
+    >
+      <div
+        class="lg:col-span-8 col-span-12 lg:mr-32 md:mr-12 mr-6 flex flex-col justify-end"
+      >
         <h1 class="large-version md:mb-4 mb-2">
           <span class="font-normal">Hey, </span>
           <span>I'm Ken. </span>
@@ -27,10 +31,10 @@
           owners. I've built, tested and launched web applications from the
           ground up with the help and collaboration of desginers and fellow
           developers. I can also get my hands dirty with Dev Ops and UI Design
-          if temperature is just right.
+          if the need arises.
         </p>
       </div>
-      <div class="col-span-4">
+      <div class="lg:col-span-4 col-span-12">
         <div
           class="relative cursor-pointer"
           @mouseover="toggleHeroImg"
@@ -56,46 +60,70 @@
     <section class="lg:my-20 md:my-16 my-10 viewport">
       <h2>Recent Work</h2>
       <div class="flex gap-x-8 md:mt-10 mt-6 work w-full cursor-pointer">
-        <div class="w-80">
-          <img
-            src="@/assets/images/ok-contemp-work.jpg"
-            class="w-full drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
-            alt=""
-          />
-        </div>
-        <img
-          src="@/assets/images/fnb-work.jpg"
-          class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
-          alt=""
-        />
-        <img
-          src="@/assets/images/bob-work.jpg"
-          class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
-          alt=""
-        />
-        <img
-          src="@/assets/images/sod-work.jpg"
-          class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
-          alt=""
-        />
-        <img
-          src="@/assets/images/moody-work.jpg"
-          class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
-          alt=""
-        />
-        <img
-          src="@/assets/images/vs-work.jpg"
-          class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
-          alt=""
-        />
+        <a href="/work/oklahoma-contemporary">
+          <div class="w-80">
+            <img
+              src="@/assets/images/ok-contemp-work.jpg"
+              class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
+              alt=""
+            />
+          </div>
+        </a>
+        <a href="/work/fnb">
+          <div class="w-80">
+            <img
+              src="@/assets/images/fnb-work.jpg"
+              class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
+              alt=""
+            />
+          </div>
+        </a>
+        <a href="/work/bank-of-bennington">
+          <div class="w-80">
+            <img
+              src="@/assets/images/bob-work.jpg"
+              class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
+              alt=""
+            />
+          </div>
+        </a>
+        <a href="/work/madison-turf">
+          <div class="w-80">
+            <img
+              src="@/assets/images/sod-work.jpg"
+              class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
+              alt=""
+            />
+          </div>
+        </a>
+        <a href="/work/moody-bank">
+          <div class="w-80">
+            <img
+              src="@/assets/images/moody-work.jpg"
+              class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
+              alt=""
+            />
+          </div>
+        </a>
+        <a href="/work/virac-special">
+          <div class="w-80">
+            <img
+              src="@/assets/images/vs-work.jpg"
+              class="w-80 drop-shadow-2xl rounded transition-transform duration-500 hover:-translate-y-6 transform"
+              alt=""
+            />
+          </div>
+        </a>
       </div>
     </section>
 
     <!-- Section 3: My Skills -->
     <section class="lg:my-20 md:my-16 my-10">
       <h2>My Skills</h2>
-      <div class="grid grid-cols-2 md:mt-10 mt-6 md:gap-x-8 gap-x-4">
-        <div class="col-span-1">
+      <div
+        class="grid grid-cols-2 md:space-y-0 space-y-4 md:mt-10 mt-6 md:gap-x-8 gap-x-4"
+      >
+        <div class="md:col-span-1 col-span-2">
           <p>
             From the beginning days of when I first got into software
             development up until now, I’ve learned and gained a solid
@@ -103,8 +131,12 @@
             reusability/scalability in large enterprise applications, and how
             user expereince means everything.
           </p>
+          <p class="md:mt-4 mt-2">
+            I believe learning and being solution-oriented should be my North
+            Star when it comes to web development and troubleshooting problems.
+          </p>
         </div>
-        <div class="col-span-1">
+        <div class="md:col-span-1 col-span-2">
           <div class="flex flex-wrap justify-center">
             <PartialsSkillTag class="mr-2 mb-4">Vue.js</PartialsSkillTag>
             <PartialsSkillTag class="mr-2 mb-4">HTML/Css</PartialsSkillTag>
@@ -133,9 +165,7 @@
             >
             <PartialsSkillTag class="mr-2 mb-4">Figma</PartialsSkillTag>
             <PartialsSkillTag class="mr-2 mb-4">Laravel</PartialsSkillTag>
-            <PartialsSkillTag class="mr-2 mb-4"
-              >Laravel Forge</PartialsSkillTag
-            >
+            <PartialsSkillTag class="mr-2 mb-4">Laravel Forge</PartialsSkillTag>
             <PartialsSkillTag class="mr-2 mb-4">jQuery</PartialsSkillTag>
             <PartialsSkillTag class="mr-2 mb-4">mySQL</PartialsSkillTag>
             <PartialsSkillTag class="mr-2 mb-4">Sqlite</PartialsSkillTag>
@@ -149,9 +179,7 @@
             <PartialsSkillTag class="mr-2 mb-4">Webflow</PartialsSkillTag>
             <PartialsSkillTag class="mr-2 mb-4">Webpack</PartialsSkillTag>
             <PartialsSkillTag class="mr-2 mb-4">Jira</PartialsSkillTag>
-            <PartialsSkillTag class="mr-2 mb-4"
-              >Digital Ocean</PartialsSkillTag
-            >
+            <PartialsSkillTag class="mr-2 mb-4">Digital Ocean</PartialsSkillTag>
           </div>
         </div>
       </div>

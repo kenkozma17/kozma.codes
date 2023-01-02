@@ -16,13 +16,13 @@ export default {
       let size = this.size;
       switch (size) {
         case "normal":
-          size = "max-w-screen-2xl md:px-28 px-12";
+          size = "max-w-screen-2xl md:px-28 px-4";
           break;
         case "large":
-          size = "max-w-screen-lg md:px-28 px-12";
+          size = "max-w-screen-lg md:px-28 px-4";
           break;
         case "large-extended":
-          size = "max-w-screen-2xl xl:px-28 lg:px-10 md:px-8";
+          size = "max-w-screen-2xl xl:px-28 lg:px-10 md:px-8 px-4";
           break;
       }
       return size;
