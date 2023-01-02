@@ -196,7 +196,7 @@ export default {
   },
   computed: {
     myAge() {
-      return new Date().getFullYear() - 1996;
+      return new Date().getFullYear() - 1997;
     },
   },
   mounted() {

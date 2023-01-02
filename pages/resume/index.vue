@@ -171,6 +171,7 @@
               <li>PHP</li>
               <li>Git</li>
               <li>Python</li>
+              <li>Tailwind CSS</li>
             </ul>
           </div>
           <div class="md:col-span-3 col-span-9">
