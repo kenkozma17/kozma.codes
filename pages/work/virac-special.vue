@@ -11,13 +11,13 @@
         >
           <div class="md:col-span-9 col-span-3">
             <TypoLabel>My Role</TypoLabel>
-            <div class="md:mt-3">
+            <div class="mt-3">
               <p>Full Stack Developer</p>
             </div>
           </div>
           <div class="md:col-span-9 col-span-3">
             <TypoLabel>Tech I Used</TypoLabel>
-            <div class="md:mt-3 flex flex-col md:space-y-1.5 space-y-1">
+            <div class="mt-3 flex flex-col md:space-y-1.5 space-y-1">
               <p>Vue.js</p>
               <p>Laravel</p>
               <p>Scss</p>
@@ -25,7 +25,7 @@
           </div>
           <div class="md:col-span-9 col-span-3">
             <TypoLabel>Timeline</TypoLabel>
-            <div class="md:mt-3 flex flex-col md:space-y-1.5 space-y-1">
+            <div class="mt-3 flex flex-col md:space-y-1.5 space-y-1">
               <p>April 2020</p>
             </div>
           </div>
@@ -33,7 +33,7 @@
         <div class="md:col-span-8 col-span-12">
           <div>
             <TypoLabel>Description</TypoLabel>
-            <div class="md:mt-3">
+            <div class="mt-3">
               <p>
                 A website built to market my Mother’s quarterly publication
                 called Virac Special which aims to promote local businesses
@@ -43,7 +43,7 @@
           </div>
           <div class="md:mt-6 mt-3">
             <TypoLabel>Context</TypoLabel>
-            <div class="md:mt-3">
+            <div class="mt-3">
               <p>
                 I spent part of my evenings after my full-time work at
                 liquidfish to spearhead the development of the website for the
@@ -53,20 +53,28 @@
               </p>
             </div>
           </div>
-          <!-- <div class="md:mt-6 mt-3 grid grid-cols-2 text-right space-x-4">
-            <a
+          <div
+            class="md:mt-6 mt-3 md:grid hidden grid-cols-2 text-right space-x-4"
+          >
+            <!-- <a
               href="#"
               class="border-2 border-ken-dark-gray font-medium md:px-10 px-4 py-2 rounded-full hover:bg-black hover:text-white hover:border-black text-center"
               >Read Case Study</a
-            >
+            > -->
             <a
-              href="#"
+              href="https://viracspecial.com"
               class="border-2 border-ken-dark-gray font-medium md:px-10 px-4 py-2 rounded-full hover:bg-black hover:text-white hover:border-black text-center"
               >Website</a
             >
-          </div> -->
+          </div>
         </div>
       </div>
+      <a
+        target="_blank"
+        href="https://viracspecial.com"
+        class="mt-4 w-full md:text-base text-sm block md:hidden border-2 border-ken-dark-gray font-medium md:px-10 px-4 py-2 rounded-full hover:bg-black hover:text-white hover:border-black text-center"
+        >Website</a
+      >
     </Wrapper>
     <Wrapper class="md:mt-12 mt-6">
       <!-- Section 2: Images -->
@@ -74,10 +82,14 @@
         <div class="col-span-12 bg-ken-light-gray md:p-4 p-1 rounded">
           <img src="@/assets/images/vs/ss-2.jpg" class="rounded" alt="" />
         </div>
-        <div class="col-span-6 bg-ken-light-gray md:p-4 p-1 rounded">
+        <div
+          class="md:col-span-6 col-span-12 bg-ken-light-gray md:p-4 p-1 rounded"
+        >
           <img src="@/assets/images/vs/ss-1.jpg" class="rounded" alt="" />
         </div>
-        <div class="col-span-6 bg-ken-light-gray md:p-4 p-1 rounded">
+        <div
+          class="md:col-span-6 col-span-12 bg-ken-light-gray md:p-4 p-1 rounded"
+        >
           <img src="@/assets/images/vs/ss-3.jpg" class="rounded" alt="" />
         </div>
       </div>

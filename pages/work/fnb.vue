@@ -12,13 +12,13 @@
         >
           <div class="md:col-span-9 col-span-3">
             <TypoLabel>My Role</TypoLabel>
-            <div class="md:mt-3">
+            <div class="mt-3">
               <p>Front End Developer</p>
             </div>
           </div>
           <div class="md:col-span-9 col-span-3">
             <TypoLabel>Tech I Used</TypoLabel>
-            <div class="md:mt-3 flex flex-col md:space-y-1.5 space-y-1">
+            <div class="mt-3 flex flex-col md:space-y-1.5 space-y-1">
               <p>Vue 3</p>
               <p>Tailwind CSS</p>
               <p>Axios</p>
@@ -29,7 +29,7 @@
           </div>
           <div class="md:col-span-9 col-span-3">
             <TypoLabel>Timeline</TypoLabel>
-            <div class="md:mt-3 flex flex-col md:space-y-1.5 space-y-1">
+            <div class="mt-3 flex flex-col md:space-y-1.5 space-y-1">
               <p>July 2022</p>
             </div>
           </div>
@@ -37,7 +37,7 @@
         <div class="md:col-span-8 col-span-12">
           <div class="md:mt-6 mt-3">
             <TypoLabel>Description</TypoLabel>
-            <div class="md:mt-3">
+            <div class="mt-3">
               <p>
                 An income and property eligibility map tool used to evaluate the
                 likelihood that a potential applicant would be eligible for
@@ -47,7 +47,7 @@
           </div>
           <div class="md:mt-6 mt-3">
             <TypoLabel>Context</TypoLabel>
-            <div class="md:mt-3">
+            <div class="mt-3">
               <p>
                 I built an embeddable map tool that helps potential applicants
                 determine USDA loan eligibility on an interactive map of the
@@ -57,16 +57,24 @@
               </p>
             </div>
           </div>
-          <!-- <div class="md:mt-6 mt-3 grid grid-cols-2 text-right space-x-4">
+          <div
+            class="md:mt-6 mt-3 md:grid hidden grid-cols-2 text-right space-x-4"
+          >
             <a
               target="_blank"
               href="https://fnb-usda-map.liquidfish.com/"
               class="border-2 border-ken-dark-gray font-medium md:px-10 px-4 py-2 rounded-full hover:bg-black hover:text-white hover:border-black text-center"
               >Website</a
             >
-          </div> -->
+          </div>
         </div>
       </div>
+      <a
+        target="_blank"
+        href="https://fnb-usda-map.liquidfish.com/"
+        class="mt-4 w-full md:text-base text-sm block md:hidden border-2 border-ken-dark-gray font-medium md:px-10 px-4 py-2 rounded-full hover:bg-black hover:text-white hover:border-black text-center"
+        >Website</a
+      >
     </Wrapper>
     <Wrapper class="md:mt-12 mt-6">
       <!-- Section 2: Images -->
@@ -74,10 +82,14 @@
         <div class="col-span-12 bg-ken-light-gray md:p-4 p-1 rounded">
           <img src="@/assets/images/fnb/ss-2.jpg" class="rounded-xl" alt="" />
         </div>
-        <div class="col-span-6 bg-ken-light-gray md:p-4 p-1 rounded">
+        <div
+          class="md:col-span-6 col-span-12 bg-ken-light-gray md:p-4 p-1 rounded"
+        >
           <img src="@/assets/images/fnb/ss-3.jpg" class="rounded" alt="" />
         </div>
-        <div class="col-span-6 bg-ken-light-gray md:p-4 p-1 rounded">
+        <div
+          class="md:col-span-6 col-span-12 bg-ken-light-gray md:p-4 p-1 rounded"
+        >
           <img src="@/assets/images/fnb/ss-1.jpg" class="rounded" alt="" />
         </div>
       </div>
